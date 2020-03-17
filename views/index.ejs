@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Sen', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="css/mobile.css">
+
+</head>
+
+<body>
+    <%- include("partials/nav.ejs") %>
+    <section>
+        <div class=" main">
+            <h1>Main</h1>
+            <div class="containers">
+                <form action="/api/url/shorten" method="POST">
+                    <label for="input">Enter URL</label>
+
+                    <div class="inp1">
+                        <input id="input" type="text" name="longurl" autocomplete="off" placeholder="Shorten Your Link">
+                        <span>http://</span>
+                    </div>
+                    <button style="display: block;" type="Submit">Shorten</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js">
+    </script>
+</body>
+
+</html>

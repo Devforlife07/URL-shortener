@@ -1,0 +1,17 @@
+nav div h1 {
+    font-size: 1.4rem;
+}
+
+.sticky div h1 {
+    font-size: 1.2rem !important;
+}
+
+span {
+    font-size: 12px;
+    top: 25px;
+}
+
+::placeholder {
+    font-size: 10px;
+    font-weight: 900;
+}
