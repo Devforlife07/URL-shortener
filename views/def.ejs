@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      font-family: "Sen", sans-serif;
+    }
+  </style>
+  <link rel="stylesheet" media="screen and (max-width:700px)" href="css/mobile.css" />
+</head>
+
+<body>
+  <section>
+    <div class=" main">
+      <h1>Welcome,</h1>
+      <div class="containers">
+        <form action="/api/url/shorten" method="POST">
+          <label for="input">Enter URL</label>
+
+          <div class="inp1">
+            <span>http://</span>
+
+            <input id="input" type="text" name="longurl" autocomplete="off" placeholder="Shorten Your Link" />
+          </div>
+          <!-- <input type="submit" value="submit" /> -->
+          <button style="display: block;" type="Submit">Shorten</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

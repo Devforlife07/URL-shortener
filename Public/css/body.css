@@ -1,78 +1,73 @@
 section {
-    background: url("../Images//back.jpg");
-    height: 108vh;
-    display: flex;
-    justify-content: center;
-
-
+  background: url("../Images//back.jpg");
+  height: 108vh;
+  display: flex;
+  justify-content: center;
 }
 
-.sticky+section {
-    position: relative;
-    top: 10px;
+.sticky + section {
+  position: relative;
+  top: 10px;
 }
 
 .main {
-    height: 50vh;
-    width: 60vw;
-    margin: auto;
-    padding: 0.5rem;
+  height: 50vh;
+  width: 60vw;
+  margin: auto;
+  padding: 0.5rem;
 }
 
 .main h1 {
-    text-align: center;
-    color: grey;
+  text-align: center;
+  color: grey;
 }
 
 .main label {
-    font-size: 1.2rem;
-    color: rgb(192, 192, 192);
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
 }
 
 .main input {
-    width: 100%;
-    height: 1.2em;
-    background: #FFFAFA;
-    padding: 1rem;
-    margin: 1rem 0.5rem;
-    outline: none;
-    position: relative;
-    border: none;
+  width: 100%;
+  height: 1.2em;
+  background: #fffafa;
+  padding: 1rem;
+  margin: 1rem 0.5rem;
+  outline: none;
+  position: relative;
+  border: none;
 }
 
 .containers {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-
-
 button {
-    border: none;
-    background: wheat;
-    color: #191919;
-    padding: 0.8rem 0.5rem;
-    border-radius: 20px;
-    font-weight: bold;
-    display: block;
-    margin: auto;
-
+  border: none;
+  background: wheat;
+  color: #191919;
+  padding: 0.8rem 0.5rem;
+  border-radius: 20px;
+  font-weight: bold;
+  display: block;
+  margin: auto;
 }
 
 .inp1 {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 
 ::placeholder {
-    text-align: center;
+  text-align: center;
 }
-
 span {
-    top: 20px;
-    left: 16px;
-    position: absolute;
+  position: absolute;
+  left: -45px;
+  font-size: 1rem;
+  top: 23px;
+  color: wheat;
 }

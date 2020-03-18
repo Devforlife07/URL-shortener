@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="section">
+        <h1>Your Shorten URL</h1>
+        <div class="field">
+            <a href="<%= data%>"><%= data%></a>
+            <i class="fas fa-clipboard"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/17bd7f5074.js" crossorigin="anonymous"></script>
+    <script>
+        let copyText = document.querySelector("a").innerText;
+        document.querySelector("i").addEventListener("click", () => {
+            console.log(copyText)
+            let text = document.createElement("textarea");
+            text.value = copyText;
+            document.body.appendChild(text);
+            text.select();
+            text.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            text.remove();
+            alert("Copied the text: " + copyText);
+        })
+        const myfunction = () => {
+
+        }
+    </script>
+</body>
+
+</html>

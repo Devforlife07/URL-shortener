@@ -1,0 +1,32 @@
+.section {
+    width: 70vw;
+    margin: auto;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.field {
+    border: solid black 1px;
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    display: block;
+    margin: 1rem 0.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+    margin: 1rem 0.3rem;
+    font-weight: 900;
+    font-size: 2rem;
+    display: block;
+
+    text-align: center;
+}
