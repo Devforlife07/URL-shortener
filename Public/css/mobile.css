@@ -17,6 +17,10 @@ span {
   font-weight: 900;
 }
 
+.section {
+  width: 98vw;
+}
+
 .field a {
 
   font-size: 1rem;
