@@ -1,3 +1,15 @@
+.error {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: red;
+    color: white;
+    display: none;
+}
+
+.err-rem {
+    display: block;
+}
+
 .section {
     width: 70vw;
     margin: auto;
